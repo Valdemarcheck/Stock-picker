@@ -14,5 +14,3 @@ def stock_picker(stocks)
     best_stock[1] = stocks.find_index(best_stock[1])
     best_stock
 end
-
-p stock_picker([17,3,6,9,15,8,6,1,10,20])
